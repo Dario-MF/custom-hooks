@@ -12,7 +12,7 @@ Ejemplo:
     const [ formValues, handleValueChange, reset ] = useForm( initialForm );
 ```
 
-- useForm( initialForm ) // Recive un objeto con estado inicial (defecto {}).
+- useForm( initialForm ) // Recibe un objeto con estado inicial (defecto {}).
 - formValues      // Estado actual del formulario.
-- handleValueChange(event)  // Recive evento del input, modifica estado del formulario.
+- handleValueChange(event)  // Recibe evento del input, modifica estado del formulario.
 - reset()  // Restaura estado del formulario al inicial.

@@ -6,7 +6,7 @@
     const url = 'endpoint api';
     const { data, loading, error } = useFetch(url);
 ```
-- useFetch(url)  // Recive url, return promise.
+- useFetch(url)  // Recibe url, return promise.
 - data   // Response del endpoint.
 - loading  // State de la peticion( boolean )
 - error   // Catch error.
